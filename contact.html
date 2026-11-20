@@ -10,13 +10,18 @@
 <body>
 
 <header class="site-header">
-  <div class="container nav">
-    <a href="index.html" class="brand"><img class="logo" src="logo.png" alt="WeldNAM logo"><span>WeldNAM<small>Welding &amp; Allied Processes</small></span></a>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
-    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
-    <ul class="menu">
+  <div class="head-meta">
+    <div class="container head-meta-inner">
+      <p>Association for Welding and Allied Processes of Namibia</p>
+      <p><a href="tel:+264818008795">+264 81 800 8795</a><a href="mailto:talweendo@unam.na">talweendo@unam.na</a></p>
+    </div>
+  </div>
+  <div class="container head-main">
+    <a href="index.html" class="brand"><img class="logo" src="logo.png" alt="WeldNAM logo"><span>WeldNAM<small>IIW member society, Windhoek</small></span></a>
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+  </div>
+  <div class="head-nav">
+    <ul class="menu container">
       <li><a href="index.html">Home</a></li>
       <li><a href="services.html">Services</a></li>
       <li><a href="about.html">About</a></li>
@@ -30,16 +35,15 @@
 <main>
 <section class="hero page-hero">
   <div class="container">
-    <span class="eyebrow">Let's Connect</span>
-    <h1>Get in Touch</h1>
-    <p class="lead">Ready to take the next step? Complete the form below to enquire about the IWE programme, book a consultation, or submit an application.</p>
+    <h1>Contact</h1>
+    <p class="lead">Use the form for an IWE application, a scholarship question, or a general enquiry. It opens an email to the programme office.</p>
   </div>
 </section>
 
 <section class="alt">
   <div class="container grid grid-2" style="align-items:start">
     <form id="enquiry-form" novalidate>
-      <h3 style="color:var(--navy);margin-bottom:20px">Send Us a Message</h3>
+      <h3 style="color:var(--navy);margin-bottom:20px">Enquiry</h3>
       <div class="field"><label for="name">Full Name</label><input id="name" name="name" type="text"><div class="err"></div></div>
       <div class="field"><label for="email">Email Address</label><input id="email" name="email" type="email"><div class="err"></div></div>
       <div class="field"><label for="phone">Phone Number</label><input id="phone" name="phone" type="tel"><div class="err"></div></div>
@@ -54,7 +58,7 @@
         <div class="err"></div>
       </div>
       <div class="field"><label for="message">Message</label><textarea id="message" name="message"></textarea><div class="err"></div></div>
-      <button type="submit" class="btn btn-primary">Submit Enquiry</button>
+      <button type="submit" class="btn btn-primary">Open email</button>
       <p class="form-note">Submitting opens your email app with the enquiry ready to send.</p>
       <div class="form-ok" id="form-ok">Thank you! Please send the email that just opened to complete your enquiry.</div>
     </form>
@@ -70,9 +74,8 @@
         <p>UNAM JEDS Campus, Ongwediva</p>
       </div>
       <div class="address" style="margin-top:26px">
-        <strong>Book a Consultation</strong>
-        Schedule a meeting to discuss the IWE programme, entry requirements, or scholarship opportunities with our team.
-        <!-- To add online booking, paste your Calendly inline-widget embed code here. -->
+        <strong>Consultation</strong>
+        Ask about the IWE programme, entry requirements, or a scholarship.
         <p style="margin-top:12px"><a class="btn btn-dark" href="mailto:talweendo@unam.na?subject=Consultation%20request">Request a time by email</a></p>
       </div>
     </div>
@@ -97,7 +100,6 @@
   </div>
   <div class="container copyright">
     <span>&copy; <span id="year">2026</span> Association for Welding and Allied Processes of Namibia (WeldNAM). All rights reserved.</span>
-    <span><a href="#">Privacy Policy</a><a href="#">Terms of Use</a></span>
   </div>
 </footer>
 

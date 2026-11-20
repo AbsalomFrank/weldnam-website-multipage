@@ -10,13 +10,18 @@
 <body>
 
 <header class="site-header">
-  <div class="container nav">
-   <a href="index.html" class="brand"><img class="logo" src="logo.png" alt="WeldNAM logo"><span>WeldNAM<small>Welding &amp; Allied Processes</small></span></a>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
-    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
-    <ul class="menu">
+  <div class="head-meta">
+    <div class="container head-meta-inner">
+      <p>Association for Welding and Allied Processes of Namibia</p>
+      <p><a href="tel:+264818008795">+264 81 800 8795</a><a href="mailto:talweendo@unam.na">talweendo@unam.na</a></p>
+    </div>
+  </div>
+  <div class="container head-main">
+    <a href="index.html" class="brand"><img class="logo" src="logo.png" alt="WeldNAM logo"><span>WeldNAM<small>IIW member society, Windhoek</small></span></a>
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+  </div>
+  <div class="head-nav">
+    <ul class="menu container">
       <li><a href="index.html">Home</a></li>
       <li><a href="services.html">Services</a></li>
       <li><a href="about.html">About</a></li>
@@ -28,26 +33,88 @@
 </header>
 
 <main>
-<section class="hero page-hero">
+<section class="hero page-hero short">
   <div class="container">
-    <span class="eyebrow">Resources</span>
     <h1>Downloads</h1>
-    <p class="lead">Forms, procedures and policies.</p>
+    <p class="lead">Membership, approved training body, and policy documents.</p>
   </div>
 </section>
 
-<section>
+<section class="library">
   <div class="container">
-    <input id="dl-search" class="search" type="search" placeholder="Search forms and policies…" aria-label="Search downloads">
-    <!-- PDFs are linked from the original WeldNAM site. To host them yourself, put them in a "files" folder and change the hrefs. -->
-    <div class="grid grid-3" id="dl-grid">
-      <div class="card dl"><h3>Membership Application Form</h3><p>Apply to become a WeldNAM member as an individual or organisation.</p><a class="btn btn-primary" target="_blank" rel="noopener" href="https://www.weldnam.com/AWAPN-WeldNam%20Membership%20Application%20Form.pdf">Download PDF &darr;</a></div>
-      <div class="card dl"><h3>ATB Application Form</h3><p>Application form for organisations seeking Approved Training Body (ATB) status under the IIW scheme.</p><a class="btn btn-primary" target="_blank" rel="noopener" href="https://www.weldnam.com/WNF_09_Application%20form%20for%20ATB%27s.pdf">Download PDF &darr;</a></div>
-      <div class="card dl"><h3>ATB Application Procedure</h3><p>The step-by-step process for ATB approval, including document review and onsite audit.</p><a class="btn btn-primary" target="_blank" rel="noopener" href="https://www.weldnam.com/WNPR_10_Application%20procedure%20for%20ATB%27s.pdf">Download PDF &darr;</a></div>
-      <div class="card dl"><h3>Standard Requirements for ATBs</h3><p>Facility, teaching staff, and documentation requirements for Approved Training Bodies.</p><a class="btn btn-primary" target="_blank" rel="noopener" href="https://www.weldnam.com/WNR_04_Standard%20requirements%20for%20Authorized%20Training%20Bodies.pdf">Download PDF &darr;</a></div>
-      <div class="card dl"><h3>Impartiality Policy</h3><p>WeldNAM's public statement on impartiality in qualification and examination activities.</p><a class="btn btn-primary" target="_blank" rel="noopener" href="https://www.weldnam.com/WNP_01_Impartiality%20policy.pdf">Download PDF &darr;</a></div>
-      <div class="card dl"><h3>Appeals and Complaints Form</h3><p>For candidates, employers, and other stakeholders to submit an appeal against an examination result or decision, or a complaint relating to WeldNAM's qualification activities.</p><a class="btn btn-primary" target="_blank" rel="noopener" href="https://www.weldnam.com/WNF_15_Appeals%20and%20Complaints%20Form.pdf">Download PDF &darr;</a></div>
+    <input id="dl-search" class="search" type="search" placeholder="Search forms and policies" aria-label="Search downloads">
+
+    <div class="doc-group">
+      <h2>Membership</h2>
+      <ul class="docs">
+        <li class="doc">
+          <span class="file-mark" aria-hidden="true">PDF</span>
+          <div>
+            <h3>Membership Application Form</h3>
+            <p>Apply to become a WeldNAM member as an individual or organisation.</p>
+          </div>
+          <a class="download" target="_blank" rel="noopener" href="https://www.weldnam.com/AWAPN-WeldNam%20Membership%20Application%20Form.pdf">Download</a>
+        </li>
+      </ul>
     </div>
+
+    <div class="doc-group">
+      <h2>Approved training bodies</h2>
+      <ul class="docs">
+        <li class="doc">
+          <span class="file-mark" aria-hidden="true">PDF</span>
+          <div>
+            <p class="doc-code">WNF 09</p>
+            <h3>ATB Application Form</h3>
+            <p>Application for organisations seeking Approved Training Body status under the IIW scheme.</p>
+          </div>
+          <a class="download" target="_blank" rel="noopener" href="https://www.weldnam.com/WNF_09_Application%20form%20for%20ATB%27s.pdf">Download</a>
+        </li>
+        <li class="doc">
+          <span class="file-mark" aria-hidden="true">PDF</span>
+          <div>
+            <p class="doc-code">WNPR 10</p>
+            <h3>ATB Application Procedure</h3>
+            <p>Document review and the onsite audit for ATB approval.</p>
+          </div>
+          <a class="download" target="_blank" rel="noopener" href="https://www.weldnam.com/WNPR_10_Application%20procedure%20for%20ATB%27s.pdf">Download</a>
+        </li>
+        <li class="doc">
+          <span class="file-mark" aria-hidden="true">PDF</span>
+          <div>
+            <p class="doc-code">WNR 04</p>
+            <h3>Standard Requirements for ATBs</h3>
+            <p>Facility, teaching staff, and documentation requirements.</p>
+          </div>
+          <a class="download" target="_blank" rel="noopener" href="https://www.weldnam.com/WNR_04_Standard%20requirements%20for%20Authorized%20Training%20Bodies.pdf">Download</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="doc-group">
+      <h2>Policies</h2>
+      <ul class="docs">
+        <li class="doc">
+          <span class="file-mark" aria-hidden="true">PDF</span>
+          <div>
+            <p class="doc-code">WNP 01</p>
+            <h3>Impartiality Policy</h3>
+            <p>WeldNAM's statement on impartiality in qualification and examination.</p>
+          </div>
+          <a class="download" target="_blank" rel="noopener" href="https://www.weldnam.com/WNP_01_Impartiality%20policy.pdf">Download</a>
+        </li>
+        <li class="doc">
+          <span class="file-mark" aria-hidden="true">PDF</span>
+          <div>
+            <p class="doc-code">WNF 15</p>
+            <h3>Appeals and Complaints Form</h3>
+            <p>Appeal an examination result or decision, or complain about qualification activities.</p>
+          </div>
+          <a class="download" target="_blank" rel="noopener" href="https://www.weldnam.com/WNF_15_Appeals%20and%20Complaints%20Form.pdf">Download</a>
+        </li>
+      </ul>
+    </div>
+
     <p class="empty" id="dl-empty" hidden>No documents match your search.</p>
   </div>
 </section>
@@ -70,7 +137,6 @@
   </div>
   <div class="container copyright">
     <span>&copy; <span id="year">2026</span> Association for Welding and Allied Processes of Namibia (WeldNAM). All rights reserved.</span>
-    <span><a href="#">Privacy Policy</a><a href="#">Terms of Use</a></span>
   </div>
 </footer>
 
